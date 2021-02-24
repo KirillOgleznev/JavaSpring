@@ -59,6 +59,12 @@ public class main {
 //        List<?> tmpList = DAO.getSession().createCriteria(Hall.class).add(Restrictions.eq("name", "test")).list();
 //        for (Object item : tmpList)
 //            System.out.println(item);
+        ArrayList<int> list = new ArrayList<int>();
+
+    }
+    static void increase(int x){
+
+        x *= 3;
 
     }
 }
